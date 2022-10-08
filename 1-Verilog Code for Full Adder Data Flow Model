@@ -1,0 +1,7 @@
+module fadder(
+    input A,B,C,
+    output S,CO
+    );
+    assign S = A ^ B^ C;
+    assign CO = (A&B) + (A&C) + (B&C);
+endmodule
