@@ -1,0 +1,11 @@
+module fadder(
+    input A,B,C,
+    output S,CO,
+    inout x1,x2,x3
+    );
+    xor xor1(S,A,B,C);
+     and and1(x1,A,B);
+     and and2(x2,B,C);
+     and and3(x3,A,C);
+     or or1(CO,x1,x2,x3);
+endmodule
