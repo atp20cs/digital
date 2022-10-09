@@ -1,0 +1,18 @@
+module code converter
+{
+  input B0;
+input  B1;
+input  B2;
+input B3;
+output G0;
+output G1;
+output G2;
+output G3;
+};
+ assign B0 = G3^G2^G1^G0;
+assign B1 = G3^G2^G1;
+assign B2 = G3^G2;
+assign B3 = G3;
+end module.
+ 
+ 
