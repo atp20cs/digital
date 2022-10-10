@@ -14,6 +14,6 @@ output G3;
 };
  assign G0 = B0^B1;
 assign G1 = B1^B2;
-assign G2 = B2^B1;
+assign G2 = B2^B3;
 assign G3 = B3;
 end module.
