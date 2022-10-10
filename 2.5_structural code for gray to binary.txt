@@ -1,13 +1,13 @@
 module code converter
 {
-  input B0;
-input  B1;
-input  B2;
-input B3;
-output G0;
-output G1;
-output G2;
-output G3;
+ input G0;
+input  G1;
+input  G2;
+input  G3;
+output B0;
+output B1;
+output B2;
+output B3;
 };
  assign B0 = G3^G2^G1^G0;
 assign B1 = G3^G2^G1;
