@@ -4,7 +4,7 @@ output Y;
 wire (T0,T1,T2,T3,S0bar,S1bar);
 not(S0bar,S0),(S1bar,S1);
 and(T0,D0,S1bar,S0bar);
-and(T1,D1,S1bar,S1);
+and(T1,D1,S0bar,S1);
 and(T2,D2S0,S1bar);
 and(T3,D3,S0,S1);
 end module
